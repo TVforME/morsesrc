@@ -51,5 +51,7 @@ meson setup build
 meson compile -C build
 sudo meson install -C build
 
+export GST_PLUGIN_PATH=/usr/local/lib/x86_64-linux-gnu:$GST_PLUGIN_PATH
+
 gst-inspect-1.0 morsesrc
 ```
