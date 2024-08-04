@@ -45,7 +45,7 @@ pip3 install meson ninja
 ## Building
 
 ```bash
-git clone https://github.com/TVforMEe/morsesrc.git
+git clone https://github.com/TVforME/morsesrc
 cd morsesrc
 meson setup build
 meson compile -C build
