@@ -3,6 +3,7 @@ project('morsesrc', 'c',
 
 gst_dep = dependency('gstreamer-1.0')
 gstbase_dep = dependency('gstreamer-base-1.0')
+gstaudio_dep = dependency('gstreamer-audio-1.0')
 glib_dep = dependency('glib-2.0')
 gobject_dep = dependency('gobject-2.0')
 
@@ -14,7 +15,7 @@ src = [
 ]
 
 libgstmorsesrc = shared_library('gstmorsesrc', src,
-  dependencies: [gst_dep, gstbase_dep, glib_dep, gobject_dep, math_lib],
+  dependencies: [gstaudio_dep, gstbase_dep, gst_dep, glib_dep, gobject_dep, math_lib],
   install: true
 )
 
