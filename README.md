@@ -55,3 +55,5 @@ export GST_PLUGIN_PATH=/usr/local/lib/x86_64-linux-gnu:$GST_PLUGIN_PATH
 
 gst-inspect-1.0 morsesrc
 ```
+## License
+This project is licensed under the GNU Lesser General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
