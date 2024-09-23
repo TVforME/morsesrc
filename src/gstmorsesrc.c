@@ -18,7 +18,7 @@
   A GStreamer audio source plugin to convert TEXT to MORSE CODE using a internal 
   conversion table which converts the text string to a morsecode representation.
   The representation is then converted to audio in the format set by caps and sent
-  the the audio sink.
+  out through the audio sink.
 
   USAGE:
   gst-launch-1.0 morsesrc text="CQ CQ DE VK3DG" ! autoaudiosink
